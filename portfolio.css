@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: #0a2222;
+    height: 200px;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  
+  .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .flex{
+    display: flex;
+  }
+  .btn-contato button{
+    padding: 10px 40px ;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #9fd9de;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+   h2.titulo{
+     color: #fff;
+     font-size: 34px;
+     text-align: center;
+   }
+   h2.titulo span{
+     color: #3dc5be;
+   }
+  
+  /* Estilo do cabeçalho */
+  header{
+    padding: 40px 4%;
+  }
+  header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+  }
+  header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  header nav ul{
+    list-style-type: none;
+  }
+  
+  header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+  }
+  
+  
+  .btn-contato button:hover{
+    box-shadow: 0px 0px 8px  #4eff02;
+    transform: scale(1.05);
+  }
+  
+  
+  /* TOPO DO SITE */
+  section.topo-do-site{
+    padding: 80px 4%;
+  }
+  
+  
+  section.topo-do-site .flex{
+     align-items: center;
+     justify-content: center;
+     gap: 90px;
+  }
+  
+  
+  .topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  
+  
+  .topo-do-site h1 span{
+    color: #3dc5be;
+  }
+  
+  
+  .topo-do-site .txt-topo-do-site p{
+    color: #fff;
+    margin: 40px 0;
+  }
+  
+  
+  .topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 0.4s ease-in-out infinite alternate;
+  }
+  
+  
+  @keyframes flutuar{
+    0%{
+      top: 0;
+    }
+    100%{
+      top: 30px;
+    }
+  }
+  
+  
+  /* HABILIDADES */
+  section .habilidades{
+    padding: 80px 4%;
+  }
+  
+  
+  section .habilidades .flex{
+    gap: 60px;
+  }
+  
+  
+  .habilidades .habilidades-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    }
+  
+  
+  .habilidades .habilidades-box:hover{
+     transform: scale(0.5s);
+     box-shadow: 0 0 8px #acb0af;
+  }
+  
+  
+  .habilidades .habilidades-box i{
+    font-size: 70px;
+    color: #fff;
+  }
+
+  .habilidades .habilidades-box h3{
+    font-size: 23px;
+    margin: 15px 0;
+  }
+
+  /* TAMANHO DA LOGO */
+  .logo{
+    background-image: url("Black_White.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+  }
+
+  #invisivel{
+    z-index: -10;
+    color: #00000000;
+  }
+
+  .img-prala{
+    
+    
+    width: 300px;
+  }
+  
+
+  /* SOBRE */
+  section.sobre{
+    padding: 80px 4%;
+  }
+   .sobre .txt-sobre{
+    color: #fff;
+    line-height: 40px;
+  }
+  
+  
+  section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+  }
+  .sobre .txt-sobre h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .sobre .txt-sobre h2 span{
+    color: #3dc5be;
+    display: block;
+  }
+  .sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+  }
+  .sobre .txt-sobre .redes-sociais{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background-color: #3dc5be;
+    margin: 0 5px;
+  }
+  .txt-sobre{
+    color: #fff;
+    padding: 120px 4%;
+  }
+  .redes-sociais{
+    border-radius: 30px;
+    background-color: #3dc5be;
+    font-size: 22px;
+    margin: 0 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagem-sobre{
+    width: 300px;
+  }
+  .redes-sociais i{
+    color: #9fd9de;
+  }
+
+  
+/* FOOTER */
+  
+footer {
+  background-image: linear-gradient( to right, #93a5df,  #3dc5be);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+} 
+
+/* MEUS PROJETOS*/
+section.projetos{
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #ffffff3e;
+}
+section.projetos .flex{
+  gap: 80px;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+ .img-proj{
+  width: 260px;
+  height: 360px;
+  
+  background-position: 100% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+  background:  #3dc5be;
+ 
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+
+.img1{
+  background-image: url(Site\ mercado.png);
+}
+.img2{
+  background-image: url(Fotografia.png);
+}
+.img3{
+  background-image: url(Site\ Hamburgueria.png);
+}
+.img4{
+  background-image: url(Site\ Cotemig.png);
+}
+
+
+.img-proj:hover{
+ background-position: 95% 95%; 
+}
+.projetinho{
+  left: 0;
+  position: absolute;
+  top: 10px;
+  /* Mudar o top */
+  width: 100%;
+  height: 100%;
+  background-color: #000000b8;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+}
+.projetinho:hover{
+  opacity: 1;
+  top: 0;
+}
+
+/* FEEDBACK */
+section.formulario{
+  padding: 80px 4%;
+  
+}
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form input, form textarea{
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+form textarea{
+  resize: none;
+  max-height: 200px;
+}
+form .btn-enviar{
+  margin-top: 20px;
+  text-align: center;
+}
+form .btn-enviar input{
+  background-color: #3dc5be;
+  width: 120px;
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+
+
+/* Bem vindo ao Portfolio */
+
+.tipe {
+  overflow: hidden;
+  border-right: 4px solid #3dc5be; /* Cursor */
+  white-space: nowrap; /* Impede quebra de linha */
+  animation: blink-caret 0.75s step-end infinite;
+  color: #3dc5be;
+  text-align: center;
+}
+
+@keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+
+
+/* Mudar tema */
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .logo{
+  background-image: url("white_black.png");
+}
+.botão_tema{
+  padding: 10px 40px ;
+  font-size: 18px;
+  font-weight: 600;
+ 
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+

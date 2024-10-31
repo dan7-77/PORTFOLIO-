@@ -1,0 +1,4 @@
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events
